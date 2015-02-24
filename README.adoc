@@ -12,4 +12,4 @@ For looking inside use
 sudo docker run -i -t --entrypoint /bin/bash jdk-mvn:latest
 ----
 
-This image is also in DockerHub under `jkremser/jdk-mvn:latest`
+This image is also in DockerHub under link:https://registry.hub.docker.com/u/jkremser/jdk-mvn/[jkremser/jdk-mvn:latest]
