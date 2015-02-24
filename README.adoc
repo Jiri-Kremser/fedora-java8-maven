@@ -1,0 +1,15 @@
+This image is meant to be a base image for subsequent Java applications.
+
+For building use
+[source,shell]
+----
+sudo docker --dns=8.8.8.8 build --force-rm=true -t foobarek:latest .
+----
+
+For looking inside use
+[source,shell]
+----
+sudo docker run -i -t --entrypoint /bin/bash jdk-mvn:latest
+----
+
+This image is also in DockerHub under `jkremser/jdk-mvn:latest`
