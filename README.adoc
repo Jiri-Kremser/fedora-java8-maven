@@ -3,7 +3,7 @@ This image is meant to be a base image for subsequent Java applications.
 For building use
 [source,shell]
 ----
-sudo docker --dns=8.8.8.8 build --force-rm=true -t foobarek:latest .
+sudo docker --dns=8.8.8.8 build --force-rm=true -t jdk-mvn:latest .
 ----
 
 For looking inside use
